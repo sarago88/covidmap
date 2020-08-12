@@ -6,7 +6,7 @@
 ### Marx Library
 ### Yale University
 ###
-### August 11th, 2020
+### August 12th, 2020
 ###
 ################################################################################
 
@@ -37,5 +37,5 @@ covid_increase <- covid %>%
 map_data <- 
   
 # Create yor map! Fill the color of each state according to its percent
-# increase in cases.
+# increase in cases. Change the color scale to red.
   
