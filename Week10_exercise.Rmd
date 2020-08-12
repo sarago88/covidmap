@@ -1,0 +1,56 @@
+---
+title: "Increase in Covid-19 cases in the US during July 2020"
+author: your_name_here
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+library(choroplethrMaps)
+library(cowplot)
+library(lubridate)
+library(knitr)
+library(kableExtra)
+
+```
+
+```{r data}
+
+# Read in data sets from last week. No output from this chunk should appear in your document.
+
+```
+
+Which states had the lowest percent increase? Which states had the most?
+```{r data-manipulation}
+
+# Manipulate the data, like we did last week, to calculate percent increase across the states.
+
+# Create a table using kable() of each state and percent increase; present states in descending order.
+
+# The document should display the table but not the code.
+ 
+```
+
+Was there a statistically significant increase in cases between the months of June and July in CT?
+``````{r t-test}
+
+# Manipulate the data to:
+# 1. Only contain CT.
+# 2. Only contain observations from June and July.
+# 3. Show the number of new cases on each day.
+
+# Conduct a t-test to test whether June and July had, on average, had the same or different number of new cases on any given day of the month
+
+# Display the results, but not the code.
+# Challenge exercise: display ONLY the t-statistic.
+
+``` 
+
+```{r map}
+
+# Using the code from last week, draw the map of all 50 states. Display the map but not the code.
+# You may notice that Alaska looks weird; try adjusting the height.
+
+```
